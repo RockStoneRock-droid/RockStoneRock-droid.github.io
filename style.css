@@ -1,5 +1,5 @@
 .header {
-    padding: 60px;
+    padding: 6vw;
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -33,10 +33,9 @@ body {
 
     .custom-dropdown {
       position: relative;
-      left: -378px;
-      top: -60px;
+      margin-left: 10;
+      top: -6vw;
       display: inline-block;
-      vertical-align: middle;
     }
 
     .custom-dropdown__select {
@@ -87,5 +86,11 @@ body {
     .custom-dropdown--white::after {
       color: rgba(0,0,0,.9);
     }
+
+   .header .custom-dropdown .h1 .p {
+      top: 0;
+      left: 0;
+      position: absolute;
+   }
   }
 
