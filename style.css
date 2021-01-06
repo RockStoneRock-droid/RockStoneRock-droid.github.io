@@ -1,5 +1,5 @@
 .header {
-    padding: 6vw;
+   height: 100;
     background: #1abc9c;
     color: white;
     font-size: 30px;
@@ -7,6 +7,11 @@
 .h1, .p {
   text-align: center;
 }
+
+.version {
+  transform: translateY(-50px);
+}
+
 body {
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
@@ -27,21 +32,15 @@ body {
   }
 
   .custom-dropdown__select--white {
-    background-color: #fff;
-    color: #444;
+    background-color: #1abc9c;
+    color: rgb(255, 255, 255);
   }
 
   @supports (pointer-events: none) and (appearance: none) {
 
     .custom-dropdown {
       position: relative;
-      margin-left: 10;
-      top: -6vw;
       display: inline-block;
-    }
-
-    .custom-dropdown__select {
-      padding-right: 1.5em; /* accommodate with the pseudo elements for the dropdown arrow */
       border: 0;
       border-radius: 3px;
       appearance: none;
@@ -56,37 +55,22 @@ body {
       pointer-events: none;
     }
 
-    .custom-dropdown::after { /*  Custom dropdown arrow */
-      content: "\25BC";
-      height: 1em;
-      font-size: .625em;
-      line-height: 1;
-      right: 1.2em;
-      top: 50%; margin-top: -.5em;
-    }
-
     .custom-dropdown::before { /*  Custom dropdown arrow cover */
       width: 2em;
       right: 0; top: 0; bottom: 0;
-      border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0; 
     }
 
     .custom-dropdown__select[disabled] {
-      color: rgba(0,0,0,.3);
+      color: rgb(255, 255, 255);
     }
 
     .custom-dropdown.custom-dropdown--disabled::after {
-      color: rgba(0,0,0,.1);
-    }
-
-    /* White dropdown style */
-    .custom-dropdown--white::before {
-      background-color: #fff;
-      border-left: 1px solid rgba(0,0,0,.1);
+      color: rgb(250, 249, 249);
     }
 
     .custom-dropdown--white::after {
-      color: rgba(0,0,0,.9);
+      color: rgb(255, 255, 255);
     }
 
    .header .custom-dropdown .h1 .p {
