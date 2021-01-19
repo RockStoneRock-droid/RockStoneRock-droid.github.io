@@ -201,38 +201,38 @@ Cards
   border: 20px solid transparent;
   -o-border-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 16.6%,
-    rgb(245, 245, 245) 37.8%,
-    rgb(245, 245, 245) 48.8%,
-    rgb(254, 254, 254) 53.1%,
-    rgba(245, 245, 245, 0.75) 79.4%,
-    rgba(245, 245, 245, 0.75) 84.3%
+    rgba(#212529, .75) 0%,
+    rgba(#212529, .75) 0%,
+    rgba(#212529, .75) 16.6%,
+    rgb(#212529, .75) 37.8%,
+    rgb(#212529, .75) 48.8%,
+    rgb(#212529, .75) 53.1%,
+    rgba(#212529, .75) 79.4%,
+    rgba(#212529, .75) 84.3%
   ) !important;
   border-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
-    from(rgba(255, 255, 255, 0.75)),
-    color-stop(0%, rgba(245, 245, 245, 0.75)),
-    color-stop(16.6%, rgba(245, 245, 245, 0.75)),
-    color-stop(37.8%, rgb(245, 245, 245)),
-    color-stop(48.8%, rgb(245, 245, 245)),
-    color-stop(53.1%, rgb(254, 254, 254)),
-    color-stop(79.4%, rgba(245, 245, 245, 0.75)),
-    color-stop(84.3%, rgba(245, 245, 245, 0.75))
+    from(rgba(#212529, 0.75)),
+    color-stop(0%, rgba(#212529, 0.75)),
+    color-stop(16.6%, rgba(#212529, 0.75)),
+    color-stop(37.8%, rgb(#212529, 245)),
+    color-stop(48.8%, rgb(#212529, 245)),
+    color-stop(53.1%, rgb(#212529, 254)),
+    color-stop(79.4%, rgba(#212529, 245, 0.75)),
+    color-stop(84.3%, rgba(#212529, 245, 0.75))
   ) !important;
   border-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 16.6%,
-    rgb(245, 245, 245) 37.8%,
-    rgb(245, 245, 245) 48.8%,
-    rgb(254, 254, 254) 53.1%,
-    rgba(245, 245, 245, 0.75) 79.4%,
-    rgba(245, 245, 245, 0.75) 84.3%
+    rgba(#212529, .75) 0%,
+    rgba(#212529, .75) 0%,
+    rgba(#212529, .75) 16.6%,
+    rgb(#212529, .75) 37.8%,
+    rgb(#212529, .75) 48.8%,
+    rgb(#212529, .75) 53.1%,
+    rgba(#212529, .75) 79.4%,
+    rgba(#212529, .75) 84.3%
   ) !important;
   border-image-slice: 1 !important;
   -webkit-transition: all 0.6s ease;
@@ -260,29 +260,29 @@ Cards
   border: 20px solid transparent !important;
   -o-border-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 16.6%,
-    rgba(245, 245, 245, 0.75) 79.4%,
-    rgba(245, 245, 245, 0.75) 84.3%
+    rgba(#212529, 255, 0.75) 0%,
+    rgba(#212529, 245, 0.75) 0%,
+    rgba(#212529, 245, 0.75) 16.6%,
+    rgba(#212529, 245, 0.75) 79.4%,
+    rgba(#212529, 245, 245, 0.75) 84.3%
   ) !important;
   border-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
     from(rgba(255, 255, 255, 0.75)),
-    color-stop(0%, rgba(245, 245, 245, 0.75)),
-    color-stop(16.6%, rgba(245, 245, 245, 0.75)),
-    color-stop(79.4%, rgba(245, 245, 245, 0.75)),
-    color-stop(84.3%, rgba(245, 245, 245, 0.75))
+    color-stop(0%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(16.6%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(79.4%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(84.3%, rgba(#212529, 245, 245, 0.75))
   ) !important;
   border-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 16.6%,
-    rgba(245, 245, 245, 0.75) 79.4%,
-    rgba(245, 245, 245, 0.75) 84.3%
+    rgba(#212529, 255, 255, 0.75) 0%,
+    rgba(#212529, 245, 245, 0.75) 0%,
+    rgba(#212529, 245, 245, 0.75) 16.6%,
+    rgba(#212529, 245, 245, 0.75) 79.4%,
+    rgba(#212529, 245, 245, 0.75) 84.3%
   ) !important;
   border-image-slice: 1 !important;
   -webkit-transition: -webkit-transform 0.6s ease;
@@ -390,31 +390,32 @@ Cards
   color: white;
 }
 
+/* Changes front card color */
 .card-block {
   background-color: transparent;
   background-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
-    from(rgba(255, 255, 255, 0.75)),
-    color-stop(0%, rgba(245, 245, 245, 0.75)),
-    color-stop(16.6%, rgba(245, 245, 245, 0.75)),
-    color-stop(37.8%, rgb(245, 245, 245)),
-    color-stop(48.8%, rgb(245, 245, 245)),
-    color-stop(53.1%, rgb(254, 254, 254)),
-    color-stop(79.4%, rgba(245, 245, 245, 0.75)),
-    color-stop(84.3%, rgba(245, 245, 245, 0.75))
+    from(rgba(#212529, 255, 255, 0.75)),
+    color-stop(0%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(16.6%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(37.8%, rgb(#212529, 245, 245)),
+    color-stop(48.8%, rgb(#212529, 245, 245)),
+    color-stop(53.1%, rgb(#212529, 254, 254)),
+    color-stop(79.4%, rgba(#212529, 245, 245, 0.75)),
+    color-stop(84.3%, rgba(#212529, 245, 245, 0.75))
   );
   background-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 0%,
-    rgba(245, 245, 245, 0.75) 16.6%,
-    rgb(245, 245, 245) 37.8%,
-    rgb(245, 245, 245) 48.8%,
-    rgb(254, 254, 254) 53.1%,
-    rgba(245, 245, 245, 0.75) 79.4%,
-    rgba(245, 245, 245, 0.75) 84.3%
+    rgba(#212529, 255, 255, 0.75) 0%,
+    rgba(#212529, 245, 245, 0.75) 0%,
+    rgba(#212529, 245, 245, 0.75) 16.6%,
+    rgb(#212529, 245, 245) 37.8%,
+    rgb(#212529, 245, 245) 48.8%,
+    rgb(#212529, 254, 254) 53.1%,
+    rgba(#212529, 245, 245, 0.75) 79.4%,
+    rgba(#212529, 245, 245, 0.75) 84.3%
   );
   background-repeat: no-repeat;
 }
@@ -426,7 +427,7 @@ Cards
 .card-img-top {
   width: 300px;
   height: 250px;
-  background-color: #fff; 
+  background-color: #212529; 
   -webkit-transition: height 0.8s ease;
   transition: height 0.8s ease;
 }
@@ -490,7 +491,7 @@ Pixel Grid
   top: 150px;
   right: 2px;
   z-index: 16;
-  color: white;
+  color: #212529;
   display: inline-block;
   /*border: 2px ridge white;*/
   font-size: 1.8em;
