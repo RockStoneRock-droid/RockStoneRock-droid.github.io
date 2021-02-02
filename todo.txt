@@ -1,3 +1,18 @@
--MORE PAGES
+set up the donate stuff (figure out a system to use to donate. some examples are pure paypal donations, but there is also things like 
+patreon, patreon is prob the better one as it is recurring payments and with enough could pay for the server and website unlike paypal 
+which is one time purchases and isn't very sustatiable, that being said if paypal is chosen it would be a high one time price compared to
+patreon which would be low but monthly recurring so more people would be willing to chose it) 
+
+TLDR for the above: pateron is better system for this type of server with dedicated community that doesn't change to much
+tiers: $5, $10, $20 or something similar. the twenty wouldn't be much different but it be to more like "if you really want to help it is appreaciated or something on those lines"
+
+clean up the about page
+
+scrollbar fix
+
+moblie optimization
+
+work on the datapack
+
 
 
