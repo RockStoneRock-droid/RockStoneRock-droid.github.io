@@ -7,6 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/cssPages/bcard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 </head>
 <body>
@@ -65,16 +68,6 @@
       <!-- End of Navbar/Header -->
       
       <!-- Card Grid Start-->
-                <html>
-          <head>
-          <title>Newsfeed</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <meta charset="utf-8">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-          <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-          <link rel="stylesheet" type="text/css" href="style.css">
-          </head>
-          <body>
           <!--======Pixel Grid======-->
           <div><img src="https://www.seanet.com/~owenmp/hvd-web/play-aids/grid-lg.gif" class="pixel-grid"/></div>
           <div><i id="toggle-grid" class="fa fa-th"></i></div>
@@ -100,7 +93,7 @@
                         <!-- Card Two -->
                         <div class="underlay">
                         <div class="card">
-                              <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
+                              <div id="card2" class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">Sennheiser HD 598 Tech Specs<hr></h5>
                                 <p class="card-text" >The brown Sennheiser HD 598 audiophile headphones have excellent, detailed hi-fi sound and a stylish design. They are comfortable to wear and offer versatility as well. These accessories feature a multi-dimensional soundstage <a href="#"><u>Read More...</u></a></p>
@@ -112,7 +105,7 @@
                           <!-- Card Three -->
                           <div class="underlay">
                             <div class="card">
-                              <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
+                              <div id="card3" class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">North Sea Wind Power Hub<hr></h5>
                                 <p class="card-text" >The harnessing of energy has never been without projects of monolithic scale. From the Hoover Dam to the Three Gorges—the world's largest power station—engineers the world over have recognised that with size comes advantages <a href="#"><u>Read More...</u></a></p>
@@ -123,7 +116,7 @@
 
                           <!-- Card Four -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card4" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">Apple MacBook Retina displays<hr></h5>
@@ -135,7 +128,7 @@
 
                           <!-- Card Five -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card5" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">Intel Dismisses 7700k Problems<hr></h5>
@@ -147,7 +140,7 @@
 
                           <!-- Card Six -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card6" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">T3 Agenda: Beats By Dre<hr></h5>
@@ -159,7 +152,7 @@
 
                           <!-- Card Seven -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card7" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">Remembering &ldquo;Jobs&rdquo; 5th anniv<hr></h5>
@@ -171,7 +164,7 @@
 
                           <!-- Card Eight -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card8" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">Pair iPod Touch with an AirPlay<hr></h5>
@@ -183,7 +176,7 @@
 
                           <!-- Card Nine -->
                           <div class="underlay">
-                            <div class="card">
+                            <div id="card9" class="card">
                               <div class="card-img-top" style="background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);"></div>
                               <div class="card-block" >
                                 <h5 class="card-title" style="font-family: 'Anton', sans-serif">A Time-Travel Experiment Works<hr></h5>
@@ -198,7 +191,7 @@
           </div>
           <!------------------------>
           <!--=======Scripts======-->
-          <script src="jquery-3.1.1.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
           <script name="toggle-grid" type="text/javascript">
           $(document).ready(function(){
             $(document).on("keypress", function(event) {
@@ -218,8 +211,7 @@
           </body>
           </html>
       <!-- Card Grid End -->
-      
+       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="/js/script.js"></script> 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
 </html>
