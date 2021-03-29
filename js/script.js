@@ -42,8 +42,8 @@ var main = function () {
             $('.main-cont').animate({
                 top: "0px"
             }, 300);
-            // $('.news-block').css({'border': '0'});
-            // $('.underlay').slideDown(1000);
+            $('.news-block').css({'border': '0'});
+            $('.underlay').slideDown(1000);
 
         }
         else if (isClicked){
@@ -62,6 +62,7 @@ var main = function () {
     console.log('isClicked= '+isClicked);
     });
   
+
     $('.card').on('mouseenter', function() {
       $(this).find('.card-text').slideDown(300);
     });
@@ -72,5 +73,3 @@ var main = function () {
        });
      });
 };
-
-$(document).ready(main);
